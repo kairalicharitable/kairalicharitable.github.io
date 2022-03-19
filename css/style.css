@@ -1093,16 +1093,20 @@ video {
     text-transform: uppercase;
 }
 @media (min-width: 1200px) {
-    .mem_img{height:300px;}
+    .mem_img{width: 263px;
+        height: 264px;}
 }
 @media (min-width: 1024px) {
-    .mem_img{height:300px;}
+    .mem_img{width: 263px;
+        height: 264px;}
 }
 @media (min-width:992px) {
-    .mem_img{height:300px;}
+    .mem_img{width: 263px;
+        height: 264px;}
 }
 @media (min-width:800px) {
-    .mem_img{height:25%;}
+    .mem_img{width: 263px;
+        height: 264px;}
 }
 
 @media (max-width: 1024px) {
