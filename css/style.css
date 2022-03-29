@@ -1524,3 +1524,8 @@ element.style {
 
 }
 
+#pro-sec hr {
+    width: 150px;
+    border: 2px solid #2f3191;
+}
+
