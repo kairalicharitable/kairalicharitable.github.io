@@ -834,7 +834,7 @@ video {
     margin-top: 30px;
 }
 #team .avatar-inner img{
-	width:100%;
+	width:auto;
 }
 #team .name a {
     color: #333;
