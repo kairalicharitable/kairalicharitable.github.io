@@ -289,13 +289,13 @@ Sasanenagar, Hadapsar, Pune - 411028</div></div>
                         <div class="member col-xs-6 col-md-2">
                         <div class="inner">
                         <div class="avatar-inner"><img src="images/wadgaonsheri_3.jpeg" style="height:200px;"></div>
-                        <div class="info"><div class="name"><a href="#">Suresh menon</a></div><div class="regency">Gen.Secretary-Malayalee Samaj Foundation<br>(Regn. No. MAH /810/2021)</div></div>
+                        <div class="info"><div class="name"><a href="#">Suresh Menon</a></div><div class="regency">Gen.Secretary-Malayalee Samaj Foundation<br>(Regn. No. MAH /810/2021)</div></div>
                         </div>
                         </div>
                          <div class="member col-xs-6 col-md-2">
                         <div class="inner">
-                        <div class="avatar-inner"><img src="images/wadgainsheri_2.jpeg" style="height:200px;width: 200px;"></div>
-                        <div class="info"><div class="name"><a href="#">Joseph Peeter</a></div><div class="regency">Treasurer-Malayalee Samaj Foundation<br>(Regn. No. MAH /810/2021)</div></div>
+                        <div class="avatar-inner"><img src="images/wadgainsheri_2.jpeg" style="height:200px;></div>
+                        <div class="info"><div class="name"><a href="#">Joseph Peter</a></div><div class="regency">Treasurer-Malayalee Samaj Foundation<br>(Regn. No. MAH /810/2021)</div></div>
                         </div>
                         </div>
                        
@@ -863,3 +863,31 @@ Sasanenagar, Hadapsar, Pune - 411028</div></div>
         </div>
         </div>
   </footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/banner.js"></script>  
+<script src="js/jquery.swipebox.js"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+      /* Basic Gallery */
+      $( '.swipebox' ).swipebox();
+      
+      /* Video */
+      $( '.swipebox-video' ).swipebox();
+
+      /* Dynamic Gallery */
+      $( '#gallery' ).click( function( e ) {
+        e.preventDefault();
+        $.swipebox( [
+          { href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+          { href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+        ] );
+      } );
+
+      });
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
