@@ -73,7 +73,7 @@ h4{
 }
 
 h5{
-	font-size:18px;
+	font-size:15px;
 	line-height:24px;
 }
 
@@ -1274,14 +1274,14 @@ h1 {
 @media (max-width: 768px) {
     .mem_img{height:25%;}	
 h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 30px;
 }	
 .topbar .header-social a{
 	width: 45px;
 }
 #first-slider .slide1 h2, #first-slider .slide2 h2, #first-slider .slide3 h2, #first-slider .slide4 h2 {
-    font-size: 26px;
+    font-size: 24px;
     width: 90%;
     padding: 18% 0 0 0;
 }
@@ -1386,7 +1386,7 @@ h1 {
 	text-align: center;
 }
 #first-slider .slide1 h2, #first-slider .slide2 h2, #first-slider .slide3 h2, #first-slider .slide4 h2 {
-    font-size: 20px;
+    font-size: 18px;
 	line-height:31px;
     padding: 10% 0 0 0;
 }
