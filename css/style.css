@@ -1387,8 +1387,8 @@ h1 {
 }
 #first-slider .slide1 h2, #first-slider .slide2 h2, #first-slider .slide3 h2, #first-slider .slide4 h2 {
     font-size: 20px;
-	line-height:20px;
-    padding: 15% 0 0 0;
+	line-height:31px;
+    padding: 10% 0 0 0;
 }
 #first-slider .slide1 h4, #first-slider .slide2 h4, #first-slider .slide3 h4, #first-slider .slide4 h4 {
     margin: 5px auto 0 auto;
