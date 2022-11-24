@@ -119,7 +119,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="inner">
 				<div class="avatar-inner"><img src="images/wedding_1.jpeg"  class="mem_img">
 				</div>
-				<div class="info"><div class="name"><a href="#">Suresh Pillai & Suma Pilla</a></div>
+				<div class="info"><div class="name"><a href="#">Suresh & Suma Pillai</a></div>
 				<div class="regency"> Wedding Day :21.01.1991</div></div>
 			</div>
 		</div>
@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="avatar-inner"><img src="images/wedding_2.jpeg"  class="mem_img">
 				</div>
 				<div class="info"><div class="name"><a href="#"> Karthik & Chetna</a></div>
-				<div class="regency">Wedding Day :01.12.2019<br>S/o Suresh Suma pillai & D/o Bhaskar Kher</div></div>
+				<div class="regency">Wedding Day :01.12.2019<br>S/o Suresh Suma pillai & D/o D/o. Bhaskar & Bhavana Kher</div></div>
 			</div>
 		</div>
 	
@@ -272,3 +272,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         </div>
   </footer>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/banner.js"></script>  
+<script src="js/jquery.swipebox.js"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+      /* Basic Gallery */
+      $( '.swipebox' ).swipebox();
+      
+      /* Video */
+      $( '.swipebox-video' ).swipebox();
+
+      /* Dynamic Gallery */
+      $( '#gallery' ).click( function( e ) {
+        e.preventDefault();
+        $.swipebox( [
+          { href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+          { href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+        ] );
+      } );
+
+      });
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
