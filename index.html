@@ -33,6 +33,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <style>
+
+	.elementToFadeInAndOut {
+   
+    background: red;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
 	.text1{
   color: black;
     animation: text 3s 1;
@@ -244,46 +263,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 </section>
 
+<section id="pro-sec">
+	<div class="container-fluid">
+		<div class="row text-center">
+		<h1>OUR UPCOMING EVENT</h1>
+		<hr>
+	
+		<div class="col-sm-6 col-md-4 clearfix top-off"></div>
+	<div class="col-sm-6 col-md-12 clearfix top-off">
+	<div class="grid-image"><img src="images/event_1.jpeg"></div>
+			
+			<div class="elementToFadeInAndOut"><h1 style="color:white;">TARANG-2023</h1></div>
+			<hr>
+			<p>A power-packed mega show featuring all the renowed artists from various cultural platforms</p>
+			<a href="#" title="" >Know More</a>
+		
+	</div>
+		<div class="col-sm-6 col-md-4 clearfix top-off"></div>
+	
+	
+	</div>
+	</div>
+	</section>
 
 
-<!-- <section id="projects-sec">
-<div class="container">
-<div class="row text-center">
-<h1>OUR PROJECTS</h1>
-<hr>
-<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-<div class="text-center"> 
-<div class="col-md-4 clearfix top-off">
-<div class="grid-image"><img src="images/test1.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="projects.html" title="" >View Project</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-image"><img src="images/test2.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="projects.html" title="" >View Project</a>
-</div>
-</div>
-<div class="col-md-4 clearfix top-off">
-<div class="grid-image"><img src="images/test3.jpg"></div>
-<div class="post-content">
-<h3>Nepal Earthquake: Clean Water Initiative</h3>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="projects.html" title="" >View Project</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section> -->
 <section id="pro-sec">
 	<div class="container">
 		<div class="row text-center">
@@ -301,7 +304,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 	</div>
 		<div class="col-sm-6 col-md-4 clearfix top-off"></div>
-	<<!-- div class="col-sm-6 col-md-6 clearfix top-off">
+	<!-- div class="col-sm-6 col-md-6 clearfix top-off">
 		<div class="post-content">
 			<h3>NEVER TO FORGET</h3>
 			<hr>
