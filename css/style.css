@@ -375,7 +375,7 @@ p{
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-	background:url(../images/aged.jpg);
+	background:url(../images/banner_2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -1124,7 +1124,7 @@ h1 {
 	font-size: 12px;
 }
 #first-slider .slide1 h2, #first-slider .slide2 h2, #first-slider .slide3 h2, #first-slider .slide4 h2{
-	font-size: 50px;
+	font-size: 26px;
     width: 90%;
 }
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
