@@ -69,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 <i class="fa fa-bars"></i>
 </button>
-<a class="navbar-brand logo" href="index.html"><img src="images/kairali_logo.jpg" class="img-responsive"  style="width:auto;height:50%;"/></a>
+<a class="navbar-brand logo" href="index.html"><img src="images/kairali_logo.jpg" class="img-responsive"  style="width:50%;height:50%;"/></a>
 <!-- <a class="navbar-brand logo" href="index.html">KCF Logo(316 X 95)</a> -->
 </div>
 
@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <ul class="nav nav-tabs">
               <!--     <li class="active"><a data-toggle="tab" href="#menu13" style="font-size: 15px;background-color: #c9c914;color: black;"><b>Akola</b></a></li> -->
                   
-                   <li class="active"><a data-toggle="tab" href="#menu15" style="font-size: 15px;background:orange;color: black;"><b>Ahmednagar</b> </a></li>
+                   <li class="active" ><a data-toggle="tab" href="#menu15" style="font-size: 15px;background:orange;color: black;"><b>Ahmednagar</b> </a></li>
 
                    <li><a data-toggle="tab" href="#menu3" style="font-size: 15px;background:orange;color: black;"><b>Aurangabad</b> </a></li>
 
@@ -1047,6 +1047,65 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <section id="team">
                         <div class="container">
                         <div class="row text-center">
+                        
+                        
+                        <h5 class="samajam"><u>Trombay Malayalee Samskarika Samithi</u></h5><br><h6>Chembur</h6>
+                         <div class="member col-xs-6 col-md-3"></div>
+                         <div class="member col-xs-12 col-md-2">
+                                            <div class="inner">
+                                            <div class="avatar-inner"><img src="images/chembur_1.jpeg" style="height:200px;width:165px;"></div>
+                                            <div class="info"><div class="name"><a href="#">P. Radhakrishnan</a></div><div class="regency">President</div></div>
+                                            </div>
+                                            </div>
+                         <div class="member col-xs-6 col-md-2">
+                                            <div class="inner">
+                                            <div class="avatar-inner"><img src="images/chembur_2.jpeg" style="height: 200px;width:165px;"></div>
+                                            <div class="info"><div class="name"><a href="#">Venu Raghavan</a></div><div class="regency">Gen.Secretary</div></div>
+                                            </div>
+                                            </div>
+                         <div class="member col-xs-6 col-md-2">
+                        <div class="inner">
+                        <div class="avatar-inner"><img src="images/chembur_3.jpeg" style="height: 200px;width:165px;"></div>
+                        <div class="info"><div class="name"><a href="#">P. K Sadasivan</a></div><div class="regency">Treasurer</div></div>
+                        </div>
+                        </div>
+                      <div class="member col-xs-6 col-md-3"></div>
+                            </div>
+                           
+                        </div>
+                       
+                     
+                        </section>
+                       <!--  <section id="team">
+                        <div class="container">
+                        <div class="row text-center">
+                        
+                        
+                        <h5 class="samajam"><u>Human Welfare Association of India(NGO)</u></h5><br><h6>Panvel</h6>
+                         <div class="member col-xs-6 col-md-4"></div>
+                         <div class="member col-xs-12 col-md-2">
+                                            <div class="inner">
+                                            <div class="avatar-inner"><img src="images/panvel_1.jpeg" style="height:200px;width:165px;"></div>
+                                            <div class="info"><div class="name"><a href="#">Raghunathan Nair</a></div><div class="regency">Founder President</div></div>
+                                            </div>
+                                            </div>
+                         <div class="member col-xs-6 col-md-2">
+                                            <div class="inner">
+                                            <div class="avatar-inner"><img src="images/panvel_2.jpeg" style="height: 200px;width:165px;"></div>
+                                            <div class="info"><div class="name"><a href="#">Samuel George </a></div><div class="regency">Founder</div></div>
+                                            </div>
+                                            </div>
+                         
+                      <div class="member col-xs-6 col-md-4"></div>
+                            </div>
+                           
+                        </div>
+                       
+                     
+                        </section> -->
+                        <section id="team">
+                        <div class="container">
+                        <div class="row text-center">
                        
                       
                         <div class="member col-xs-6 col-md-2">
@@ -1586,7 +1645,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery.swipebox.js"></script>
 <script type="text/javascript">
   $( document ).ready(function() {
+$("#downClick").on("click" ,function(){
+    scrolled=scrolled+300;
 
+    $(".cover").animate({
+        scrollTop:  scrolled
+    });
+
+});
       /* Basic Gallery */
       $( '.swipebox' ).swipebox();
       
